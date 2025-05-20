@@ -1,0 +1,41 @@
+{
+    "name": "@aequation/utils",
+    "description": "Controllers JS integration for Symfony",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": [
+        "symfony-ux"
+    ],
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "main": "dist/globalapp_controller.js",
+    "symfony": {
+        "controllers": {
+            "globalapp": {
+                "main": "dist/globalapp_controller.js",
+                "fetch": "eager",
+                "enabled": true
+            },
+            "chart": {
+                "main": "dist/controller.js",
+                "webpackMode": "eager",
+                "fetch": "eager",
+                "enabled": true
+            }
+        },
+        "importmap": {
+            "@hotwired/stimulus": "^3.2.2",
+            "flowbite": "^3.1.2"
+        }
+    },
+    "peerDependencies": {
+        "@hotwired/stimulus": "^3.2.2",
+        "flowbite": "^3.1.2"
+    },
+    "DevDependencies": {
+        "@hotwired/stimulus": "^3.2.2",
+        "flowbite": "^3.1.2"
+    }
+}
