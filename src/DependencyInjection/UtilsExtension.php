@@ -1,5 +1,5 @@
 <?php
-namespace Aequation\Utils\DependencyInjection;
+namespace Aequation\UtilsBundle\DependencyInjection;
 
 use Symfony\Component\AssetMapper\AssetMapperInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

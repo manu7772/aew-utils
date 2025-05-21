@@ -15,12 +15,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Aequation\\utils\\": "src/"
+            "Aequation\\UtilsBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Aequation\\utils\\Tests\\": "tests/"
+            "Aequation\\UtilsBundle\\Tests\\": "tests/"
         }
     },
     "require": {
