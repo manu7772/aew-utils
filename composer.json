@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Utils integration for Symfony",
     "keywords": [
-        "symfony-ux"
+        "symfony-bundle","symfony-ux"
     ],
     "homepage": "https://www.aequation.fr",
     "license": "MIT",
