@@ -17,12 +17,6 @@
                 "main": "dist/globalapp_controller.js",
                 "fetch": "eager",
                 "enabled": true
-            },
-            "chart": {
-                "main": "dist/controller.js",
-                "webpackMode": "eager",
-                "fetch": "eager",
-                "enabled": true
             }
         },
         "importmap": {
